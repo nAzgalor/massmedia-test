@@ -1,0 +1,5 @@
+- if notice.present?
+  .alert.alert-success role="alert"
+    p#notice = notice
+
+= link_to 'Створити заявку', new_feedback_path, class: 'btn btn-primary'
